@@ -70,6 +70,25 @@ This repository is a sample project that demonstrates how to leverage Claude for
 - Claude AI
 - YAML configuration
 
+## セキュリティ / Security
+
+### セキュリティステータス / Security Status
+
+✅ **セキュリティチェック完了** - このリポジトリ内のすべてのファイルをチェックし、セキュリティ上の問題は検出されませんでした。
+
+✅ **Security Check Complete** - All files in this repository have been checked and no security issues were detected.
+
+### 詳細 / Details
+
+- **実行可能ファイル**: なし / None
+- **機密情報**: 検出されず / Not detected
+- **外部依存関係**: なし / None
+- **セキュリティリスク**: 低 / Low
+
+このリポジトリはドキュメンテーションのみを含むサンプルプロジェクトであり、実行可能なコードや機密情報は含まれていません。
+
+This repository is a sample project containing only documentation and does not include any executable code or sensitive information.
+
 ## ライセンス / License
 
 このプロジェクトのライセンスは未定義です。詳細はリポジトリオーナーにお問い合わせください。
