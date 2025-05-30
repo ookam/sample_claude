@@ -70,6 +70,45 @@ This repository is a sample project that demonstrates how to leverage Claude for
 - Claude AI
 - YAML configuration
 
+## ファイル構造 / File Structure
+
+```
+sample_claude/
+├── README.md                          # プロジェクトの概要とドキュメント / Project overview and documentation
+└── .github/
+    └── workflows/
+        └── claude.yml                 # Claude統合用のGitHub Actionsワークフロー / GitHub Actions workflow for Claude integration
+```
+
+### ファイルの詳細 / File Details
+
+#### `README.md`
+- **説明**: プロジェクトの概要、使用方法、セットアップ手順などを記載したメインドキュメント
+- **Description**: Main documentation containing project overview, usage instructions, and setup procedures
+- **内容 / Contents**:
+  - プロジェクトの概要と機能
+  - 使い方とセットアップ手順
+  - セキュリティ情報
+  - Project overview and features
+  - Usage and setup instructions
+  - Security information
+
+#### `.github/workflows/claude.yml`
+- **説明**: GitHub Actions上でClaude AIを動作させるためのワークフロー定義ファイル
+- **Description**: Workflow definition file for running Claude AI on GitHub Actions
+- **主な機能 / Main Features**:
+  - イシューやプルリクエストでの `@claude` メンションを検知
+  - Claude Code Actionを実行して自動応答
+  - 60分のタイムアウト設定
+  - Detects `@claude` mentions in issues and pull requests
+  - Executes Claude Code Action for automatic responses
+  - 60-minute timeout configuration
+- **トリガー / Triggers**:
+  - `issue_comment`: イシューへのコメント時
+  - `pull_request_review_comment`: PRレビューコメント時
+  - `issues`: イシューの作成・アサイン時
+  - `pull_request_review`: PRレビューの提出時
+
 ## セキュリティ / Security
 
 ### セキュリティステータス / Security Status
